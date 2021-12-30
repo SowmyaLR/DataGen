@@ -1,0 +1,18 @@
+[{
+	"Id": "Name",
+	"DataType": "Text",
+	"SubType": "fname"
+},
+
+{
+	"Id": "Age",
+	"DataType": "Number"
+},
+
+{
+	"Id": "Designation",
+	"DataType": "Text",
+	"SubType": "job"
+}
+
+]

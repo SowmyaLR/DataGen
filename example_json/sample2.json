@@ -1,0 +1,25 @@
+[
+  {
+    "Id": "Name",
+    "DataType": "Text",
+    "SubType": "name"
+  },
+  {
+    "Id": "Salary",
+    "DataType": "Number",
+    "Conditions": [
+      {"LESS_THAN":  20000},
+      {"GREATER_THAN": 5000}
+    ]
+  },
+  {
+    "Id": "Email",
+    "DataType": "Text",
+    "SubType": "email"
+  },
+  {
+    "Id": "DOJ",
+    "DataType": "Date",
+    "Conditions": ["PAST_DATE"]
+  }
+]
